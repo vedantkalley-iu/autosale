@@ -7,7 +7,7 @@ st.write("We are here to make your wedding memorable 💍")
 
 # Inputs
 date = st.text_input("Enter the date of events")
-event = st.selectbox("Select event type", ["Wedding", "Engagement", "Pre-wedding", "Other"])
+event = st.selectbox("Type your events")
 nop = st.number_input("Enter number of guests", min_value=0, step=1)
 
 # Button
@@ -16,7 +16,7 @@ if st.button("Generate Quote"):
     if nop == 0:
         st.warning("Please enter number of guests")
 
-    elif 50 <= nop <= 300:
+    elif 0 <= nop <= 300:
         st.success(f"""
 Event: {event}  
 Date: {date}
