@@ -60,7 +60,7 @@ if st.button("Generate Quote"):
         st.write("- 1 wedding reel")
         
         st.write("**Signature – ₹6,25,000 / 2 day**")
-         st.write("- 1100 edited photos")
+        st.write("- 1100 edited photos")
         st.write("- 2 wedding reels")
         
         st.write("**Luxe – ₹8,95,000 / 3 day**")
