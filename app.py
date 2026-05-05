@@ -16,7 +16,7 @@ if st.button("Generate Quote"):
     if nop == 0:
         st.warning("Please enter number of guests")
 
-    elif 0 <= nop <= 300:
+    elif 50 <= nop <= 300:
         st.success(f"""
 Event: {event}  
 Date: {date}
