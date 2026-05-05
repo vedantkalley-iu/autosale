@@ -33,8 +33,19 @@ if st.button("Generate Quote"):
         st.subheader("📦 Packages")
 
         st.write("**Classic – ₹2,25,000 / day**")
+        st.write("- 500 edited photos")
+        st.write("- Wedding short (20-40 sec)")
+        st.write("- Trailer: 4-5 min")
+        st.write("- Wedding film: 10-15 min")
+        st.write("- 1 wedding reel")
+
         st.write("**Signature – ₹4,25,000 / 2 day**")
+        st.write("- 800 edited photos")
+        st.write("- 2 wedding reels")
+        
         st.write("**Luxe – ₹6,35,000 / 3 day**")
+        st.write("- 1200 edited photos")
+        st.write("- 3 wedding reels")
 
     elif people > 300:
         st.success("✅ Recommended Team: 3 Photographers + 3 Cinematographers")
@@ -42,8 +53,19 @@ if st.button("Generate Quote"):
         st.subheader("📦 Packages")
 
         st.write("**Classic – ₹4,25,000 / day**")
+        st.write("- 800 edited photos")
+        st.write("- Wedding short (20-40 sec)")
+        st.write("- Trailer: 4-5 min")
+        st.write("- Wedding film: 10-15 min")
+        st.write("- 1 wedding reel")
+        
         st.write("**Signature – ₹6,25,000 / 2 day**")
+         st.write("- 1100 edited photos")
+        st.write("- 2 wedding reels")
+        
         st.write("**Luxe – ₹8,95,000 / 3 day**")
+        st.write("- 1500 edited photos")
+        st.write("- 3 wedding reels")
 
     # Summary
     st.write("## 📄 Summary")
